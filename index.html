@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="backGround">
+    <img src="https://source.unsplash.com/1920x1080" />
+    </div>
+
+    <h1 id="clock">00:00</h1>
+
+    <h1 id="greeting" class="hidden"></h1>
+
+
+    <div id="login">
+      <form class="hidden" id="login-form">
+        <input 
+        required 
+        maxlength="15" 
+        type="text" 
+        placeholder="What is your name?" />
+        <button>Log in</button>
+      </form>
+    </div>
+
+    <div id = "todo-all" class="hidden">
+      <form id="todo-form" class="hidden">
+        <div>What are you do today?</div>
+        <input id="todo-input" type="text" required />
+      </form>
+
+      <div id="list-contents" class="hidden">
+      </div>
+      
+    </div>
+
+    <div id="quotes" class="hidden">
+      <div></div>
+      <div></div>
+    </div>
+
+    <div id="weather" class="hidden">
+      <span></span>
+      <span></span>
+    </div>
+
+    <script src="js/clock.js"></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/quotes.js"></script>
+
+  </body>
+</html>
