@@ -1,2 +1,0 @@
-# banilaJs-todo
-todo
